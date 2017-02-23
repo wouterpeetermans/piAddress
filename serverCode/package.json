@@ -1,0 +1,14 @@
+{
+  "name": "piaddress",
+  "version": "1.0.0",
+  "description": "litle piese of code that shows pi's addres on the local network",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Wouter Peetermans",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.14.1"
+  }
+}

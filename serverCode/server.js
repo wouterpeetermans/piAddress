@@ -23,7 +23,8 @@ app.post('/api/addresses' ,function(req,res){
 			addresses.splice(i,1);
 		}
 	}
-	addresses.push({'name':req.body.name , 'address':req.body.address});
+	var date = new Date();
+	addresses.push({'name':req.body.name , 'address':req.body.address , 'date':date});
 	res.status(201).json(addresses);
 });
 
